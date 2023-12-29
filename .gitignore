@@ -147,6 +147,7 @@ bin/
 .idea/*
 keys.py
 *.txt
+!requirements.txt
 *.csv
 *.exe
 *.jpg
