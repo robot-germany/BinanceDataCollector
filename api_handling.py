@@ -26,7 +26,7 @@ def download_all_sites(sites):
     with concurrent.futures.ThreadPoolExecutor(max_workers=80) as executor:
         results = executor.map(download_site, sites)
         try:
-            successful_results = filter[None, results]
+            successful_results = filter(None, results)
         except TypeError:
             raise RuntimeError("Connection Error!")
         return successful_results
