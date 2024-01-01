@@ -151,4 +151,5 @@ keys.py
 *.csv
 *.exe
 *.jpg
+*.ini
 binance_client
